@@ -777,9 +777,9 @@ update() {
     echo " 安装最新版trojan-go"
     getVersion
     downloadFile
-    installTrojan
-
+    
     stop
+    installTrojan
     start
 }
 
